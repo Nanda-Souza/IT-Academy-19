@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fernanda_Oliveira\\OneDrive - Dell Technologies\\Desktop\\AulasIT_19\\ITAcademy19\\C#\\Lab2\\Laboratorio2\\Laboratorio2.csproj": {}
+    "C:\\Users\\Fernanda_Oliveira\\OneDrive - Dell Technologies\\Desktop\\AulasIT_19\\ITAcademy19\\C#\\Lab2\\Laboratorio2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fernanda_Oliveira\\OneDrive - Dell Technologies\\Desktop\\AulasIT_19\\ITAcademy19\\C#\\Lab2\\Laboratorio2\\Laboratorio2.csproj": {
+    "C:\\Users\\Fernanda_Oliveira\\OneDrive - Dell Technologies\\Desktop\\AulasIT_19\\ITAcademy19\\C#\\Lab2\\Laboratorio2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fernanda_Oliveira\\OneDrive - Dell Technologies\\Desktop\\AulasIT_19\\ITAcademy19\\C#\\Lab2\\Laboratorio2\\Laboratorio2.csproj",
+        "projectUniqueName": "C:\\Users\\Fernanda_Oliveira\\OneDrive - Dell Technologies\\Desktop\\AulasIT_19\\ITAcademy19\\C#\\Lab2\\Laboratorio2.csproj",
         "projectName": "Laboratorio2",
-        "projectPath": "C:\\Users\\Fernanda_Oliveira\\OneDrive - Dell Technologies\\Desktop\\AulasIT_19\\ITAcademy19\\C#\\Lab2\\Laboratorio2\\Laboratorio2.csproj",
+        "projectPath": "C:\\Users\\Fernanda_Oliveira\\OneDrive - Dell Technologies\\Desktop\\AulasIT_19\\ITAcademy19\\C#\\Lab2\\Laboratorio2.csproj",
         "packagesPath": "C:\\Users\\Fernanda_Oliveira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fernanda_Oliveira\\OneDrive - Dell Technologies\\Desktop\\AulasIT_19\\ITAcademy19\\C#\\Lab2\\Laboratorio2\\obj\\",
+        "outputPath": "C:\\Users\\Fernanda_Oliveira\\OneDrive - Dell Technologies\\Desktop\\AulasIT_19\\ITAcademy19\\C#\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fernanda_Oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config"
