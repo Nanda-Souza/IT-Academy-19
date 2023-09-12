@@ -54,9 +54,4 @@ public ContaCorrente(decimal val, string titular)
         dataCriacao = DateTime.Now;
         nomeTitular = titular;
     }
-
-//Armazenar o saldo médio do correntista
-//Métodos depósito ou retirada acionados o saldo da conta deve ser acumulado e um cont deve ser incrementado-Feito
-//O saldo médio é obtido dividindo-se este acumulador pelo número de operações realizadas.
-//Tenho metodo deposito, crio um array vazio para armazenar a quantidade de operações realizados? Feito.
 }
