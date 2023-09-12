@@ -2,7 +2,6 @@ using System;
 class ContaCorrente {
 
 private decimal saldo;
-private decimal totalOperacoes;
 private DateTime dataCriacao;
 private string nomeTitular;
 private List<decimal> operacoes = new List<decimal>(); 
@@ -26,16 +25,7 @@ public void Sacar(decimal val)
 
 public decimal Saldo { get { return saldo; } }
 
-public void CalculaSaldoMedio()
-{
-    totalOperacoes = operacoes.Sum();
-}
-
-public decimal SaldoMedio 
-{ 
-    set { totalOperacoes = operacoes.Sum();}
-    get { return totalOperacoes; } 
-}
+public decimal SaldoMedio { get { return operacoes.Sum()/numOperacoes; } }
 
 public DateTime DataCriacao
     {
