@@ -1,3 +1,6 @@
+using System;
+using System.Drawing;
+
 public class Circulo
  {
  private double coordX;
@@ -7,49 +10,37 @@ public class Circulo
  : this(0, 0, 1)
  {
  }
+
  public Circulo(double x, double y, double r)
  {
  coordX = x;
  coordY = y;
  raio = Math.Abs(r);
  }
+
  public double CentroX
  {
- get
- {
- return coordX;
+ get {return coordX;}
+ set {coordX = value;}
  }
- set
- {
- coordX = value;
- }
- }
+
  public double CentroY
  {
- get
- {
- return coordY;
- }
- set
- {
- coordY = value;
+ get {return coordY;}
+ set {coordY = value;
  }
  }
+
  public double Raio
  {
- get
- {
- return raio;
+ get {return raio;}
+ set {raio = value;}
  }
- set
- {
- raio = value;
- }
- }
+
  public override string ToString()
- {
- return "(" + string.Format("{0:F2}", CentroX) + ";"
- + string.Format("{0:F2}", CentroY) + ")"
- + " raio=" + string.Format("{0:F2}", Raio);
- }
+    {
+        return "(" + string.Format("{0:F2}", CentroX) + ";"
+            + string.Format("{0:F2}", CentroY) + ")"
+            + " raio=" + string.Format("{0:F2}", Raio);
+    }
  }
